@@ -1,0 +1,30 @@
+.register{
+    padding: 40px 0;
+    background-color: #F8F8F8;
+}
+.register-inner{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px 30px;
+}
+.register-inner img{
+    margin-bottom: 20px;
+}
+.register-inner form button{
+    background-color: #38ADE3;
+    color: #fff;
+}
+.register-inner form{
+    margin: 20px 0;
+}
+.register-inner form .form-control{
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.register-inner a{
+    color: #38ADE3;
+}
+.register-inner form .form-check{
+    margin:10px 0; 
+}

@@ -1,0 +1,111 @@
+.cart-checkout{
+    padding: 40px 0;
+}
+.cart-checkout-form{
+    padding: 15px;
+    background-color: #F8F8F8;
+}
+.cart-checkout-form h3{
+    margin-bottom: 20px;
+    color: #545454;
+    font-size: 20px;
+}
+.cart-checkout-form form{
+    background-color: #fff;
+    padding: 15px 10px;
+}
+.cart-checkout-form form label{
+    font-weight: 500;
+}
+.billing-address p,
+.payment-info p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+.payment-info{
+    margin-top: 60px;
+}
+.payment-info button{
+    background-color: #38ADE3;
+    padding: 10px 30px;
+    color: #fff !important;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.cart-checkout-order{
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+
+}
+.cart-checkout-order-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-checkout-order-header span{
+    display: inline-block;
+    font-weight: 600;
+}
+.cart-checkout-order-body{
+    background-color: #fff;
+    padding: 10px;
+}
+.cart-plan-sample{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+.cart-plan-sample:last-child{
+    border-bottom: 0;
+}
+.cart-plan-sample p{
+    display: inline-block;
+}
+.cart-plan-sample p span{
+    display: block;
+}
+.cart-plan-sample p a{
+    display: block;
+}
+.cart-checkout-order-footer{
+    background-color: #F2F2F2;
+    padding: 10px;
+    
+}
+.cart-checkout-order-footer-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.cart-checkout-order-footer p{
+    display: inline-block;
+}
+.cart-checkout-order-footer-two{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-checkout-order-footer-two p{
+    font-weight: 600;
+
+}
+.cart-checkout-order-footer-two p:first-child{
+    margin-right: 30px;
+}
+.ft-600{
+    font-weight: 600;
+}
+.sticky-checkout {
+    top: 57px;
+}
+.cart-checkout-order.sticky-top{
+    z-index: 0;
+}

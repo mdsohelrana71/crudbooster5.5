@@ -1,0 +1,22 @@
+[29-Jan-2022 14:44:23 UTC] PHP Warning:  Uncaught ErrorException: require(/home/devsera/public_html/archimple/routes/web.php): failed to open stream: No such file or directory in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/d...', '/home/devsera/p...', 417, Array)
+#1 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/devsera/p...')
+#3 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/devsera/p...')
+#4 /home/devsera/public_html/archimple/app/Providers/RouteServiceProvider.php(56): Illuminate\Rou in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[29-Jan-2022 14:44:23 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/devsera/public_html/archimple/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[29-Jan-2022 14:44:33 UTC] PHP Warning:  Uncaught ErrorException: require(/home/devsera/public_html/archimple/routes/web.php): failed to open stream: No such file or directory in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/d...', '/home/devsera/p...', 417, Array)
+#1 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/devsera/p...')
+#3 /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/devsera/p...')
+#4 /home/devsera/public_html/archimple/app/Providers/RouteServiceProvider.php(56): Illuminate\Rou in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[29-Jan-2022 14:44:33 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/devsera/public_html/archimple/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/devsera/public_html/archimple/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[29-Jan-2022 17:27:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/devsera/public_html/dhlbdrefer/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1939
+[29-Jan-2022 17:27:57 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/devsera/public_html/dhlbdrefer/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1939
+[29-Jan-2022 17:28:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/devsera/public_html/dhlbdrefer/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1939
+[29-Jan-2022 17:29:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/devsera/public_html/dhlbdrefer/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1939
+[29-Jan-2022 17:32:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/devsera/public_html/dhlbdrefer/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1939
+[29-Jun-2022 20:03:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/luminouslabsbd/public_html/dhl-referral-program/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/OLE.php on line 288

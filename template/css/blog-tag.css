@@ -1,0 +1,24 @@
+.blog-body h2{
+    color: #06698B;
+    font-size: 36px;
+    font-weight: 700;
+}
+.blog-tag-sample{
+    width: 100%;
+    margin-bottom:30px;
+    border-top: 2px solid #000;
+}
+.blog-tag-sample-des{
+    padding: 10px 0;
+}
+.blog-tag-sample-des h6{
+    color:#38ADE3 ;
+    margin-bottom: 20px;
+}
+.blog-tag-sample-des p{
+    color: #000;
+}
+.blog-tag-sample-img{
+    display: block;
+    margin-top: 20px;
+}

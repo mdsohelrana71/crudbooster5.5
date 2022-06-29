@@ -1,0 +1,31 @@
+.login{
+    padding: 40px 0;
+    background-color: #F8F8F8;
+}
+.login-inner{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px 30px;
+}
+.login-inner span{
+    display: block;
+    margin:20px 0;
+    font-weight: bold;
+    color: #38ADE3;
+    font-size: 20px;
+}
+.login-inner form button{
+    background-color: #38ADE3;
+    color: #fff;
+}
+.login-inner form{
+    margin-bottom: 20px;
+}
+.login-inner form .form-control{
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.login-inner a{
+    color: #38ADE3;
+}

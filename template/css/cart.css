@@ -1,0 +1,75 @@
+.cart{
+    padding: 40px 0;
+}
+.cart-modal{
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+.cart-modal-header{
+    background-color: #F8F8F8;
+    border-radius:5px;
+    padding: 5px 10px;
+}
+.cart-modal-header h4{
+    display: inline-block;
+    font-size: 18px;
+}
+.cart-modal-body{
+    padding: 5px 10px;
+}
+.cart-sample{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.cart-sample:last-child{
+    border-bottom: 0;
+}
+.cart-des{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cart-des li{}
+.cart-des li a{}
+.cart-link a{
+    display: block;
+}
+.cart-modal-footer{
+    background-color: #F8F8F8;
+    border-radius:5px;
+    padding: 10px 0px;
+}
+.cart-modal-footer form input[type=text] {
+    padding: 5px 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    position: relative;
+}
+.cart-modal-footer form button {
+    border: 0px;
+    border-radius: 0 3px 3px 0;
+    outline: none;
+    background-color: #B2B2B2;
+    padding: 6px 10px;
+    position: absolute;
+}
+.cart-modal-footer p{
+    padding-right: 5px;
+}
+.checkout{
+    display: flex;
+    justify-content: flex-end;
+}
+.checkout form label{
+    margin-right: 10px;
+    font-weight: 600;
+}
+.checkout form button{
+    background-color: #38ADE3;
+    padding: 10px 30px;
+    color: #fff !important;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+}
